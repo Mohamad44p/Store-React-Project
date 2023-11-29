@@ -1,0 +1,74 @@
+.Featured {
+  text-align: center;
+  padding: 2rem 0;
+  margin-bottom: 0; 
+  background-color: #5dafb8;
+  background: linear-gradient(to right, #141414, #322b2b);
+  margin-top: 10rem;
+  padding-top: 2rem;
+}
+
+.Featured h1 {
+  font-size: 2.5rem;
+  color: #C04436; 
+  margin-bottom: 1rem;
+}
+
+.Featured p {
+  font-size: 1.2rem;
+  color: #7DAFE0;
+  margin-bottom: 1.5rem;
+}
+
+.Featured button {
+  background-color: #7DAFE0;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.Featured button:hover {
+  background-color: #6d9ecb; 
+}
+
+
+
+.Featureds {
+  text-align: center;
+  padding: 2rem 0;
+  margin-bottom: 0; 
+  background-color: #5dafb8;
+  background: linear-gradient(to right, #141414, #322b2b);
+  padding-top: 2rem;
+}
+
+.Featureds h1 {
+  font-size: 2.5rem;
+  color: #C04436; 
+  margin-bottom: 1rem;
+}
+
+.Featureds p {
+  font-size: 1.2rem;
+  color: #7DAFE0;
+  margin-bottom: 1.5rem;
+}
+
+.Featureds button {
+  background-color: #7DAFE0;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.Featureds button:hover {
+  background-color: #6d9ecb; 
+}

@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@600&family=Poppins:wght@400;700&family=Quicksand:wght@300;400;500;700&family=Roboto:wght@400;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Quicksand', 'Roboto';
+  font-weight: 700;
+}
+
+:root {
+  --NavbarBackgroundColor: #fff;
+  --LinkColor: #1C1D21;
+  --TextHoverBackgroundColor: rgb(240, 10, 10);
+  --LinkActive: rgb(247, 10, 10);
+}
+
+.container {
+  background-image: url(../Assets/Startupimage.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+@media (min-width: 1024px) {
+  .hero-section h1 {
+    font-size: 4rem; 
+  }
+
+  .hero-section h4 {
+    font-size: 1.8rem;
+  }
+
+  .card {
+    height: 50vh;
+    width: 40vh;
+  }
+
+  .Featured h1 {
+    font-size: 2.5rem;
+  }
+
+  .Featured p {
+    font-size: 1.2rem;
+  }
+}
+
+
+@media only screen and (max-width: 600px) {
+  .header-content, .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .logo {
+    margin-left: 1rem; 
+  }
+  .navbar {
+    width: 100%;
+    margin-right: 0; 
+  }
+  .menu-icon {
+    display: block; 
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 1rem;
+  }
+  .hero-section h1 {
+    font-size: 2.5rem; 
+  }
+  .hero-section h4 {
+    font-size: 1rem;
+  }
+  .card {
+    width: 80%; 
+    margin: 10px auto;
+  }
+  .Featured h1 {
+    font-size: 2rem;
+  }
+  .Featured p {
+    font-size: 1rem;
+  }
+}
+
+
+

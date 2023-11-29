@@ -1,0 +1,46 @@
+.navbar {
+  background-color: var(--NavbarBackgroundColor);
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 20px;
+  margin-right: 15rem;
+  width: 100%;
+}
+
+.navbar a {
+  color: var(--LinkColor);
+  transition: all 0.3s ease;
+  text-decoration: none;
+  position: relative; 
+  padding-bottom: 3px;
+  overflow: hidden;
+  
+}
+.navbar a::after {
+  content: '';
+  display: block;
+  height: 2px;
+  width: 0;
+  background: var(--LinkColor); 
+  transition: width 0.3s ease-in-out;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.navbar a:hover, .navbar a:focus {
+  color: var(--TextHoverBackgroundColor); 
+}
+
+.navbar a:hover::after, .navbar a:focus::after {
+  width: 100%;
+  background: var(--LinkActive); 
+}
+.navbar a.active {
+ 
+  background-color: transparent;
+}
+.navbar a.active::after {
+  width: 100%; 
+  background: var(--LinkActive); 
+}

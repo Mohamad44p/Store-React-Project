@@ -1,0 +1,87 @@
+.HomePage-Title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #141414, #322b2b);
+}
+.title-HomePage{
+  color: #7de099;
+}
+
+
+.container-filter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.Categories select, .Price input {
+  padding: 10px 15px;
+  margin: 0 10px;
+  border: 2px solid #7DAFE0; 
+  background-color: #fff;
+  color: var(--LinkColor);
+  border-radius: 5px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.Categories select:hover, .Price input:hover {
+  border-color: #C04436; 
+}
+
+.Categories select:focus, .Price input:focus {
+  border-color: #6d9ecb; 
+}
+
+
+.Categories select option {
+  color: var(--LinkColor);
+  background-color: #fff;
+}
+
+
+.container-title-ProductCard {
+  text-align: center;
+  background: linear-gradient(to right, #141414, #322b2b);
+  color: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  margin: 2rem 0;
+}
+
+.container-title-ProductCard h1 {
+  font-size: 2.5rem;
+  color: #7DAFE0; 
+  margin-bottom: 1rem;
+}
+
+.container-title-ProductCard h4 {
+  font-size: 1.5rem;
+  color: #C04436; 
+  margin-bottom: 1rem;
+}
+
+.container-title-ProductCard p {
+  font-size: 1rem;
+  color: #fff;
+  margin-bottom: 1.5rem;
+}
+
+.container-title-ProductCard button {
+  background-color: #7DAFE0;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.container-title-ProductCard button:hover {
+  background-color: #6d9ecb; 
+}

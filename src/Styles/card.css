@@ -1,0 +1,70 @@
+.container-image{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #5dafb8;
+  background: linear-gradient(to right, #141414 , #322b2b );
+
+}
+.card-wrapper {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #5dafb8;
+  color: white;
+}
+
+.card {
+  height: 50vh;
+  width: 40vh;
+  border-radius: 13px;
+  box-shadow: 20px 40px 33px rgba(0, 0, 0, 0.3);
+  padding: 2rem;
+  background: linear-gradient(to right, #7DAFE0 , #C04436 );
+  margin: 10px 20px;
+}
+
+.image-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 20vh;
+  background: linear-gradient(to right, #7DAFE0 , #C04436 );
+  box-shadow: 10px 15px 15px 6px #3891b4;
+  border-radius: 15px;
+  font-size: 15vh;
+}
+
+
+
+.image-container img {
+    width: 50%;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+}
+
+.card h2 {
+  font-size: 24px;
+  margin-top: 3rem;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 14px;
+}
+/* ====================Last Card Style================= */
+.Card-btn{
+  background-color: #7DAFE0;
+  margin-top: 50px;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.Card-btn:hover {
+  background: linear-gradient(to right, #7DAFE0, #C04436);
+}
